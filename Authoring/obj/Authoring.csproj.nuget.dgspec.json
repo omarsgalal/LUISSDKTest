@@ -1,22 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\LUIS-SDKS\\Authoring\\Authoring.csproj": {}
+    "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Authoring\\Authoring.csproj": {}
   },
   "projects": {
-    "C:\\Work\\LUIS-SDKS\\Authoring\\Authoring.csproj": {
+    "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Authoring\\Authoring.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\LUIS-SDKS\\Authoring\\Authoring.csproj",
+        "projectUniqueName": "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Authoring\\Authoring.csproj",
         "projectName": "Authoring",
-        "projectPath": "C:\\Work\\LUIS-SDKS\\Authoring\\Authoring.csproj",
+        "projectPath": "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Authoring\\Authoring.csproj",
         "packagesPath": "C:\\Users\\a-omsami\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\LUIS-SDKS\\Authoring\\obj\\",
+        "outputPath": "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Authoring\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+          "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\NuGet.Config",
           "C:\\Users\\a-omsami\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Work\\LUIS-SDKS\\packages": {},
+          "C:\\agent\\_work\\126\\s\\LUISSDKTest\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +44,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "AuthoringSDK": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.Azure.Management.ResourceManager": {
               "target": "Package",
               "version": "[1.6.0-preview, )"
