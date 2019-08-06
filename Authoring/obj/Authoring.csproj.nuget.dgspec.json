@@ -46,7 +46,7 @@
           "dependencies": {
             "AuthoringSDK": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "(, )"
             },
             "Microsoft.Azure.Management.ResourceManager": {
               "target": "Package",
