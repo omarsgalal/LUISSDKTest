@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AuthoringSDK" />
+    <PackageReference Include="AuthoringSDK" Version="1.0.0" />
     <PackageReference Include="Microsoft.Azure.Management.ResourceManager" Version="1.6.0-preview" />
     <PackageReference Include="Microsoft.Azure.Test.HttpRecorder" Version="1.13.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.1.0" />

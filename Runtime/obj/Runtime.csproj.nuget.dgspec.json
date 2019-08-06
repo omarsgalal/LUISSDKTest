@@ -79,7 +79,7 @@
             },
             "RuntimeSDK": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[1.0.0, )"
             },
             "System.Runtime.InteropServices": {
               "target": "Package",
