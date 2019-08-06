@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Authoring\\Authoring.csproj": {}
+    "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Runtime\\Runtime.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Authoring\\Authoring.csproj": {
+    "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Runtime\\Runtime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Authoring\\Authoring.csproj",
-        "projectName": "Authoring",
-        "projectPath": "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Authoring\\Authoring.csproj",
+        "projectUniqueName": "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Runtime\\Runtime.csproj",
+        "projectName": "Runtime",
+        "projectPath": "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Runtime\\Runtime.csproj",
         "packagesPath": "C:\\Users\\a-omsami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Authoring\\obj\\",
+        "outputPath": "C:\\Users\\a-omsami\\Desktop\\LUISSDKTest\\Runtime\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,10 +44,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "AuthoringSDK": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
             "Microsoft.Azure.Management.ResourceManager": {
               "target": "Package",
               "version": "[1.6.0-preview, )"
@@ -80,6 +76,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.0.0-beta2-19367-01, )"
+            },
+            "RuntimeSDK": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "System.Runtime.InteropServices": {
               "target": "Package",
