@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Authoring")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1009fc326799b03820276c6f06336a7c103d33d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Authoring")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Authoring")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
