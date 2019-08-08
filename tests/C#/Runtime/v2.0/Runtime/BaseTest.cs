@@ -14,7 +14,7 @@ namespace LUIS.Runtime.Tests
         private const HttpRecorderMode mode = HttpRecorderMode.Record;
 
         protected const string appId = "0894d430-8f00-4bcd-8153-45e06a1feca1";
-        protected const string subscriptionKey = "00000000000000000000000000000000";
+        protected const string subscriptionKey = "62b834e0069943d9b035f32abd230359";
 
         private string ClassName => GetType().FullName;
 
