@@ -44,6 +44,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.Azure.Management.ResourceManager": {
               "target": "Package",
               "version": "[1.6.0-preview, )"
@@ -76,10 +80,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.0.0-beta2-19367-01, )"
-            },
-            "RuntimeSDK": {
-              "target": "Package",
-              "version": "[1.0.0, )"
             },
             "System.Runtime.InteropServices": {
               "target": "Package",

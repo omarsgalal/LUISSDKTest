@@ -11,7 +11,7 @@ namespace LUIS.Runtime.Tests
 
     public abstract class BaseTest
     {
-        private const HttpRecorderMode mode = HttpRecorderMode.Playback;
+        private const HttpRecorderMode mode = HttpRecorderMode.Record;
 
         protected const string appId = "0894d430-8f00-4bcd-8153-45e06a1feca1";
         protected const string subscriptionKey = "00000000000000000000000000000000";
