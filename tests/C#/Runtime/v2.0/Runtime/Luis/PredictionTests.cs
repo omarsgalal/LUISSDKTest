@@ -58,7 +58,7 @@
                         "this is a test with post");
                 });
 
-                Assert.Equal("Operation returned an invalid status code", ex.Message.Substring(0, 41));
+                Assert.Equal("Operation returned an invalid status code 'Gone'", ex.Message);
             });
         }
 
